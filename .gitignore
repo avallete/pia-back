@@ -20,15 +20,11 @@
 # Ignore Byebug command history file.
 .byebug_history
 
-# Ignore database configuration
-config/database.yml
 
 # Ignore vim swap files
 *.swp
 *.swo
 
-# Ignore application configuration
-/config/application.yml
 
 # Others
 /public/uploads/*

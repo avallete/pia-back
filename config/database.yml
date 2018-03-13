@@ -1,0 +1,29 @@
+development:
+  adapter:  postgresql
+  host:     <%= ENV["DB_HOST"] %>
+  encoding: unicode
+  database: pia_development
+  pool:     5
+  username: <%= ENV["DB_USERNAME"] %>
+  password: <%= ENV["DB_PASSWORD"] %>
+  template: template0
+
+test:
+  adapter:  postgresql
+  host:     <%= ENV["DB_HOST"] %>
+  encoding: unicode
+  database: pia_test
+  pool:     5
+  username: <%= ENV["DB_USERNAME"] %>
+  password: <%= ENV["DB_PASSWORD"] %>
+  template: template0
+
+production:
+  adapter:  postgresql
+  host:     <%= ENV["DB_HOST"] %>
+  encoding: unicode
+  database: pia_production
+  pool:     5
+  username: <%= ENV["DB_USERNAME"] %>
+  password: <%= ENV["DB_PASSWORD"] %>
+  template: template0
