@@ -10,7 +10,7 @@ end
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'rails', '~> 5.0.6'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12', '>= 3.12.6'
 gem 'pg'
 gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-base64', '~> 2.6.1'
