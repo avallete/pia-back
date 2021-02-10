@@ -12,7 +12,7 @@ gem 'rails', '~> 5.0.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 gem 'pg'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3', '>= 1.3.2'
 gem 'carrierwave-base64', '~> 2.6.1'
 gem 'figaro'
 
